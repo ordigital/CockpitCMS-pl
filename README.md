@@ -2,7 +2,7 @@
 Polskie tłumaczenie dla CockpitCMS.
 https://getcockpit.com/
 
-# Instalacja
+## Instalacja
 - Umieść pliki w głównym katalogu CockpitCMS
   (plik `pl.php` powinien się znaleźć w katalogu `/config/cockpit/i18n/`)
 - Dodaj język polski w `/config/config.yaml`:
@@ -14,7 +14,7 @@ languages:
 ```
 - Zmień język w edytując ustawienia użytkownika
 
-# Możliwe problemy
+## Możliwe problemy
 Jeśli nie wszystkie elementy panelu są przetłumaczone, sprawdź czy po zalogowaniu działa ścieżka `/cockpit.i18n.data`. Jeśli nie to wykonaj poniższe operacje:
 - w pliku `/modules/Cockpit/admin.php` zmień ścieżkę dla tłumaczenie dla elementów panelu w js:
 ```diff
