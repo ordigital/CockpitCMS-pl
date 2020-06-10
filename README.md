@@ -3,8 +3,12 @@ Polskie tłumaczenie dla CockpitCMS.
 https://getcockpit.com/
 
 ## Instalacja
-- Umieść pliki w głównym katalogu CockpitCMS
-  (plik `pl.php` powinien się znaleźć w katalogu `/config/cockpit/i18n/`)
+- pobierz i rozpakuj pliki w głównym katalogu CockpitCMS:
+```bash
+$ wget https://github.com/ordigital/CockpitCMS-pl/archive/master.zip
+$ unzip ./master.zip
+```
+- plik `pl.php` powinien się znaleźć w katalogu `/config/cockpit/i18n/`
 - Dodaj język polski w `/config/config.yaml`:
 ```yaml
 i18n: 'pl'
